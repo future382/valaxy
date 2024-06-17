@@ -4,8 +4,7 @@ import { addonAlgolia } from 'valaxy-addon-algolia'
 // import { addonBangumi } from 'valaxy-addon-bangumi'
 import { addonComponents } from 'valaxy-addon-components'
 import { addonLightGallery } from 'valaxy-addon-lightgallery'
-import { addonTest } from 'valaxy-addon-test'
-import { addonWaline } from 'valaxy-addon-waline' 
+import { addonTest } from 'valaxy-addon-test' 
 import { addonTwikoo } from 'valaxy-addon-twikoo'
 
 import { addonMeting } from 'valaxy-addon-meting'
@@ -15,6 +14,18 @@ import { addonMeting } from 'valaxy-addon-meting'
 const safelist = [
   'i-ri-home-line',
 ]
+import { defineValaxyConfig } from 'valaxy'
+import { addonWaline } from 'valaxy-addon-waline'
+
+export default defineValaxyConfig({
+  // or write it in site.config.ts
+  siteConfig: {
+    // 启用评论
+    comment: {
+      enable: true
+    },
+  },
+
 export default defineValaxyConfig<ThemeConfig>({
   devtools: true,
   // site config see site.config.ts or write in siteConfig
@@ -70,8 +81,6 @@ export default defineValaxyConfig<ThemeConfig>({
     // comments
     addonWaline({
       serverURL: 'https://waline.adkimsm.eu.org',
-      pageview: true,
-      comment: true,
     }),
     addonTwikoo({
       envId: 'https://twikoo.adkimsm.eu.org,
