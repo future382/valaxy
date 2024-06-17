@@ -38,7 +38,12 @@ export default defineValaxyConfig<ThemeConfig>({
       // dark: 'material-theme-darker',
       dark: 'github-dark',
     },
-
+ siteConfig: {
+    // 启用评论
+    comment: {
+      enable: true
+    },
+ }
     blocks: {
       tip: {
         icon: 'i-carbon-thumbs-up',
@@ -85,7 +90,10 @@ export default defineValaxyConfig<ThemeConfig>({
 
     // comments
     addonTwikoo({
+      
       envId: 'https://twikoo.adkimsm.eu.org',
+      pageview: true,
+      comment: true,
     }),
 
     addonLightGallery(),
