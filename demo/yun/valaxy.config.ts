@@ -1,13 +1,8 @@
 import { defineValaxyConfig } from 'valaxy'
 import type { ThemeConfig } from 'valaxy-theme-yun'
-import { addonAlgolia } from 'valaxy-addon-algolia'
 // import { addonBangumi } from 'valaxy-addon-bangumi'
 import { addonComponents } from 'valaxy-addon-components'
-import { addonLightGallery } from 'valaxy-addon-lightgallery'
-import { addonTest } from 'valaxy-addon-test' 
 import { addonTwikoo } from 'valaxy-addon-twikoo'
-
-import { addonMeting } from 'valaxy-addon-meting'
 
 // import { addonTwikoo } from 'valaxy-addon-twikoo'
 
@@ -83,18 +78,8 @@ export default defineValaxyConfig<ThemeConfig>({
       serverURL: 'https://waline.adkimsm.eu.org',
     }),
     addonTwikoo({
-      envId: 'https://twikoo.adkimsm.eu.org,
-    }),
+      envId: 'https://twikoo.adkimsm.eu.org＇,
+    })
 
-    addonLightGallery(),
-    addonMeting({
-      global: true,
-      props: {
-        id: '2049540645',
-        server: 'netease',
-        type: 'song',
-      },
-    }),
-    addonTest(),
-  ],
-})
+    
+}
