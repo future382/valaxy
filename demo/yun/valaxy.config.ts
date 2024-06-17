@@ -5,8 +5,8 @@ import { addonAlgolia } from 'valaxy-addon-algolia'
 import { addonComponents } from 'valaxy-addon-components'
 import { addonLightGallery } from 'valaxy-addon-lightgallery'
 import { addonTest } from 'valaxy-addon-test'
-import { addonWaline } from 'valaxy-addon-waline'
-// import { addonTwikoo } from 'valaxy-addon-twikoo'
+import { addonWaline } from 'valaxy-addon-waline' 
+import { addonTwikoo } from 'valaxy-addon-twikoo'
 
 import { addonMeting } from 'valaxy-addon-meting'
 
@@ -63,17 +63,8 @@ export default defineValaxyConfig<ThemeConfig>({
       },
     ],
   },
-  addons: [
-    addonAlgolia({
-      appId: 'UVMHTMG1T5',
-      apiKey: '805f2584a8866388aa1631ff0348ddae',
-      indexName: 'valaxy',
-    }),
-    addonBangumi({
-      api: 'https://yi_xiao_jiu-bangumi.web.val.run',
-      bilibiliUid: '1579790',
-      bgmEnabled: false,
-    }),
+  addons: 
+    [
     addonComponents(),
 
     // comments
@@ -83,7 +74,7 @@ export default defineValaxyConfig<ThemeConfig>({
       comment: true,
     }),
     addonTwikoo({
-      envId: 'https://twikoo.vercel.app',
+      envId: 'https://twikoo.adkimsm.eu.org,
     }),
 
     addonLightGallery(),
