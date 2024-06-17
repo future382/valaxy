@@ -6,12 +6,11 @@ import { addonBangumi } from 'valaxy-addon-bangumi'
 import { addonComponents } from 'valaxy-addon-components'
 import { addonLightGallery } from 'valaxy-addon-lightgallery'
 import { addonTest } from 'valaxy-addon-test'
-import { addonWaline } from 'valaxy-addon-waline'
 import { addonTwikoo } from 'valaxy-addon-twikoo'
 
 import { addonMeting } from 'valaxy-addon-meting'
 
-// import { addonTwikoo } from 'valaxy-addon-twikoo'
+import { addonTwikoo } from 'valaxy-addon-twikoo'
 
 const safelist = [
   'i-ri-home-line',
@@ -85,13 +84,8 @@ export default defineValaxyConfig<ThemeConfig>({
     addonComponents(),
 
     // comments
-    addonWaline({
-      serverURL: 'https://waline.yunyoujun.cn',
-      pageview: true,
-      comment: true,
-    }),
     addonTwikoo({
-      envId: 'https://twikoo.vercel.app',
+      envId: 'https://twikoo.adkimsm.eu.org',
     }),
 
     addonLightGallery(),
