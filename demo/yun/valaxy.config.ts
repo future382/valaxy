@@ -1,34 +1,30 @@
 import { defineValaxyConfig } from 'valaxy'
 import type { ThemeConfig } from 'valaxy-theme-yun'
-
 import { addonAlgolia } from 'valaxy-addon-algolia'
 import { addonBangumi } from 'valaxy-addon-bangumi'
 import { addonComponents } from 'valaxy-addon-components'
 import { addonLightGallery } from 'valaxy-addon-lightgallery'
 import { addonTest } from 'valaxy-addon-test'
+import { addonWaline } from 'valaxy-addon-waline'
 import { addonTwikoo } from 'valaxy-addon-twikoo'
 
 import { addonMeting } from 'valaxy-addon-meting'
 
-import { addonTwikoo } from 'valaxy-addon-twikoo'
+// import { addonTwikoo } from 'valaxy-addon-twikoo'
 
 const safelist = [
   'i-ri-home-line',
 ]
-
 export default defineValaxyConfig<ThemeConfig>({
   devtools: true,
   // site config see site.config.ts or write in siteConfig
   // siteConfig: {},
-
   theme: 'yun',
   // see theme.config.ts or write in themeConfig
   // themeConfig in theme.config.ts
-
   unocss: {
     safelist,
   },
-
   markdown: {
     // default material-theme-palenight
     // theme: 'material-theme-palenight',
@@ -38,12 +34,6 @@ export default defineValaxyConfig<ThemeConfig>({
       // dark: 'material-theme-darker',
       dark: 'github-dark',
     },
- siteConfig: {
-    // 启用评论
-    comment: {
-      enable: true
-    },
- }
     blocks: {
       tip: {
         icon: 'i-carbon-thumbs-up',
@@ -64,7 +54,6 @@ export default defineValaxyConfig<ThemeConfig>({
         text: 'información',
       },
     },
-
     codeTransformers: [
       // We use `[!!code` in demo to prevent transformation, here we revert it back.
       {
@@ -74,7 +63,6 @@ export default defineValaxyConfig<ThemeConfig>({
       },
     ],
   },
-
   addons: [
     addonAlgolia({
       appId: 'UVMHTMG1T5',
@@ -89,11 +77,13 @@ export default defineValaxyConfig<ThemeConfig>({
     addonComponents(),
 
     // comments
-    addonTwikoo({
-      
-      envId: 'https://twikoo.adkimsm.eu.org',
+    addonWaline({
+      serverURL: 'https://waline.adkimsm.eu.org',
       pageview: true,
       comment: true,
+    }),
+    addonTwikoo({
+      envId: 'https://twikoo.vercel.app',
     }),
 
     addonLightGallery(),
