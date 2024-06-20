@@ -8,11 +8,11 @@ export default defineThemeConfig({
 
   banner: {
     enable: true,
-    title: '云游君的小站',
+    title: '云之彼端',
   },
 
   notice: {
-    enable: true,
+    enable: false,
     content: '公告测试',
   },
 
@@ -20,13 +20,13 @@ export default defineThemeConfig({
     {
       name: '我的小伙伴们',
       url: '/links/',
-      icon: 'i-ri-genderless-line',
+      icon: 'ri-link-unlink',
       color: 'dodgerblue',
     },
     {
-      name: '喜欢的女孩子',
-      url: '/girls/',
-      icon: 'i-ri-women-line',
+      name: '生物百科指北',
+      url: '/biological-wiki/',
+      icon: 'ri-file-marked-line',
       color: 'hotpink',
     },
   ],
@@ -34,7 +34,7 @@ export default defineThemeConfig({
   footer: {
     since: 2016,
     beian: {
-      enable: true,
+      enable: false,
       icp: '苏ICP备17038157号',
     },
     icon: {
