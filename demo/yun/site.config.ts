@@ -6,14 +6,14 @@ export default defineSiteConfig({
   },
 
   lang: 'zh-CN',
-  title: 'Valaxy Theme Yun',
+  title: 'Biltune的小站',
   timezone: 'Asia/Shanghai',
-  url: 'https://yun.valaxy.site/',
+  url: 'https://blog.kysolva.eu.org/',
   author: {
     avatar: 'https://www.yunyoujun.cn/images/avatar.jpg',
-    name: '云游君',
+    name: 'Biltune',
   },
-  description: 'Valaxy Theme Yun Preview.',
+  description: 'All at sea.',
   social: [
     {
       name: 'RSS',
@@ -29,27 +29,9 @@ export default defineSiteConfig({
     },
     {
       name: 'GitHub',
-      link: 'https://github.com/YunYouJun',
+      link: 'https://github.com/Future382',
       icon: 'i-ri-github-line',
       color: '#6e5494',
-    },
-    {
-      name: '微博',
-      link: 'https://weibo.com/jizhideyunyoujun',
-      icon: 'i-ri-weibo-line',
-      color: '#E6162D',
-    },
-    {
-      name: '豆瓣',
-      link: 'https://www.douban.com/people/yunyoujun/',
-      icon: 'i-ri-douban-line',
-      color: '#007722',
-    },
-    {
-      name: '网易云音乐',
-      link: 'https://music.163.com/#/user/home?id=247102977',
-      icon: 'i-ri-netease-cloud-music-line',
-      color: '#C20C0C',
     },
     {
       name: '知乎',
@@ -59,15 +41,9 @@ export default defineSiteConfig({
     },
     {
       name: '哔哩哔哩',
-      link: 'https://space.bilibili.com/1579790',
+      link: 'https://space.bilibili.com/3546374182275679',
       icon: 'i-ri-bilibili-line',
       color: '#FF8EB3',
-    },
-    {
-      name: '微信公众号',
-      link: 'https://cdn.yunyoujun.cn/img/about/white-qrcode-and-search.jpg',
-      icon: 'i-ri-wechat-2-line',
-      color: '#1AAD19',
     },
     {
       name: 'Twitter',
@@ -77,13 +53,13 @@ export default defineSiteConfig({
     },
     {
       name: 'Telegram Channel',
-      link: 'https://t.me/elpsycn',
+      link: 'https://t.me/yunji_daily',
       icon: 'i-ri-telegram-line',
       color: '#0088CC',
     },
     {
       name: 'E-Mail',
-      link: 'mailto:me@yunyoujun.cn',
+      link: 'mailto:me@biltune.top',
       icon: 'i-ri-mail-line',
       color: '#8E71C1',
     },
@@ -118,7 +94,7 @@ export default defineSiteConfig({
   },
 
   sponsor: {
-    enable: true,
+    enable: false,
     methods: [
       {
         name: '支付宝',
