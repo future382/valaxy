@@ -6,7 +6,7 @@ export default defineSiteConfig({
   },
 
   lang: 'zh-CN',
-  title: 'Biltune的小站',
+  title: 'Biltune 的小站',
   timezone: 'Asia/Shanghai',
   url: 'https://blog.kysolva.eu.org/',
   author: {
@@ -22,12 +22,6 @@ export default defineSiteConfig({
       color: 'orange',
     },
     {
-      name: 'QQ 群 1050458482',
-      link: 'https://qm.qq.com/cgi-bin/qm/qr?k=kZJzggTTCf4SpvEQ8lXWoi5ZjhAx0ILZ&jump_from=webapi',
-      icon: 'i-ri-qq-line',
-      color: '#12B7F5',
-    },
-    {
       name: 'GitHub',
       link: 'https://github.com/Future382',
       icon: 'i-ri-github-line',
@@ -35,7 +29,7 @@ export default defineSiteConfig({
     },
     {
       name: '知乎',
-      link: 'https://www.zhihu.com/people/yunyoujun/',
+      link: 'https://www.zhihu.com/people/zuo-yi-zhi-nu-li-de-tu-zi-96/',
       icon: 'i-ri-zhihu-line',
       color: '#0084FF',
     },
