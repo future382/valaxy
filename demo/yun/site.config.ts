@@ -10,7 +10,7 @@ export default defineSiteConfig({
   timezone: 'Asia/Shanghai',
   url: 'https://blog.kysolva.eu.org/',
   author: {
-    avatar: 'https://www.yunyoujun.cn/images/avatar.jpg',
+    avatar: 'https://yunji.blog/icons.webp',
     name: 'Biltune',
   },
   description: 'All at sea.',
