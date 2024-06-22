@@ -20,13 +20,14 @@ export default defineThemeConfig({
     {
       name: '我的小伙伴们',
       url: '/links/',
-      icon: 'ri-link-unlink',
+      icon: 'i-ri-link',
       color: 'dodgerblue',
     },
     {
       name: '生物百科指北',
       url: '/biological-wiki/',
-      icon: 'ri-file-marked-line',
+     // icon: 'ri-file-marked-line',
+      icon:'i-ri-message-line',
       color: 'hotpink',
     },
   ],
