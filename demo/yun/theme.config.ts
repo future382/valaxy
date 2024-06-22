@@ -30,6 +30,12 @@ export default defineThemeConfig({
       icon:'i-ri-message-line',
       color: 'hotpink',
     },
+    {
+        name: "相册集",
+        url: "/albums",
+        icon: "i-ri-gallery-line",
+        color: "#F2BC57",
+      },
   ],
 
   footer: {
