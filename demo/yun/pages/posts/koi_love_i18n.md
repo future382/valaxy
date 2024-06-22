@@ -27,7 +27,7 @@ updated: '2024-05-26T11:46:51.911+08:00'
 
 这之后，男孩也许还想着这名女孩，也可能会看到第一位男孩喜欢女孩子的历程。玻璃心的第二位男孩看到第一位男孩的勇敢会有什么样的想法吗？自我矛盾？逃避？麻木？迷茫？我不知道答案…… 但是，我知道，第二个男生可能就是我……
 
-:::en
+:::en-US
 
 From my point of view, I think the most beautiful thing in the world, it may be not a real thing, but an emotion.
 
