@@ -8,7 +8,7 @@ export default defineSiteConfig({
   lang: 'zh-CN',
   title: '云之彼端',
   timezone: 'Asia/Shanghai',
-  url: 'https://blog.kysolva.eu.org/',
+  url: 'https://blog.biltune.top/',
   author: {
     avatar: 'https://yunji.blog/icons.webp',
     name: 'Biltune',
