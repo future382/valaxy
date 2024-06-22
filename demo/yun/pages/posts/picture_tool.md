@@ -5,7 +5,7 @@ excerpt: 站长必备
 tags: 
     - 利器
     - 图片压缩算法
-categories: 云迹的小工具
+categories: 工具
 ---
 
 

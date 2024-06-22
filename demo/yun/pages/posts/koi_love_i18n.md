@@ -1,15 +1,17 @@
 ---
 abbrlink: ''
-categories: []
+categories: 
+- 胡说八道
 date: 2023-8-19
-excerpt: 本文支持多语言
+excerpt: i18n示例文章
 tags:
-- 情感
+- i18n
+- International
 - English
 title: 恋爱二三事
 updated: '2024-05-26T11:46:51.911+08:00'
 ---
-中文（Chinese）
+:::zh-CN
 
 对我来说，我认为世界上最美的东西，可能不是某个现实存在的物质，而是一段情感。
 
@@ -25,7 +27,7 @@ updated: '2024-05-26T11:46:51.911+08:00'
 
 这之后，男孩也许还想着这名女孩，也可能会看到第一位男孩喜欢女孩子的历程。玻璃心的第二位男孩看到第一位男孩的勇敢会有什么样的想法吗？自我矛盾？逃避？麻木？迷茫？我不知道答案…… 但是，我知道，第二个男生可能就是我……
 
-English
+:::en
 
 From my point of view, I think the most beautiful thing in the world, it may be not a real thing, but an emotion.
 

@@ -2,7 +2,7 @@
 cover: https://s2.loli.net/2023/08/20/xPTvR9KkBFJif6y.jpg
 title: 实战：快速刷课程学习时间记录
 date: 2023-7-31
-categories: 云迹的小教程
+categories: 教程
 tags: 
   - 利器
   - 摸鱼

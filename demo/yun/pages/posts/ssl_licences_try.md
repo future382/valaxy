@@ -5,7 +5,7 @@ tags:
     - 利器
     - Web
     - SSL/TLS
-categories: 云迹的小教程
+categories: 教程
 excerpt: SSL证书申请
 ---
 
