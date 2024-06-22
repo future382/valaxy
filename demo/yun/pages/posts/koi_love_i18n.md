@@ -11,7 +11,7 @@ tags:
 title: 恋爱二三事
 updated: '2024-05-26T11:46:51.911+08:00'
 ---
-:::zh-CN
+::: zh-CN
 
 对我来说，我认为世界上最美的东西，可能不是某个现实存在的物质，而是一段情感。
 
@@ -26,8 +26,9 @@ updated: '2024-05-26T11:46:51.911+08:00'
 上了初中，这位男孩子不知为何喜欢上了一个女孩子。并不是同桌，也不是小学同学，可能只是一见钟情。据说很多人喜欢这位女孩子，这位女孩子也有许多选择。可这个男孩并没有与女方有过多的交流，倒不如说，没有交流，也只是互相知道有这个人，男孩子也没有了解过对方。一次，男孩子鼓足了干劲想要表白，断断续续的回复，最后，残酷的现实击中了男孩子的心里。这是必然的结局，不必多问。
 
 这之后，男孩也许还想着这名女孩，也可能会看到第一位男孩喜欢女孩子的历程。玻璃心的第二位男孩看到第一位男孩的勇敢会有什么样的想法吗？自我矛盾？逃避？麻木？迷茫？我不知道答案…… 但是，我知道，第二个男生可能就是我……
+:::
 
-:::en-US
+::: en
 
 From my point of view, I think the most beautiful thing in the world, it may be not a real thing, but an emotion.
 
@@ -42,3 +43,4 @@ Let me tell you another story: the protagonist of the story developed a timid an
 In junior high school, the boy falls in love with a girl for some reason. It is not the same table, nor is it primary school classmates, it may just be love at first sight. It is said that many people like this girl, and this girl has many choices. But the boy doesn't have too much communication with the woman, it is better to say that there was no communication, and they just know a little about each other, and the boy didn't know much about her. Once, the boy tries his best to tell his feelings, and she replies intermittently. Finally, the cruel reality hits the boy's heart. This is the inevitable ending, no need to ask more.
 
 After that, the boy may still think about the girl, and he may also see the process of the first boy liking the girl. What will the second boy with the glass heart think when he sees the bravery of the first boy? Self-contradictory? escape? numbness? confused? I don't know the answer... However, I know that, the second boy may be me...
+:::
