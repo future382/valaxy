@@ -6,13 +6,14 @@ export default defineSiteConfig({
   },
 
   lang: 'zh-CN',
-  title: 'Biltune 的小站',
+  title: '云之彼端',
   timezone: 'Asia/Shanghai',
   url: 'https://blog.kysolva.eu.org/',
   author: {
     avatar: 'https://yunji.blog/icons.webp',
     name: 'Biltune',
   },
+  subtitle:'生而热忱，终也欢洽',
   description: 'All at sea.',
   social: [
     {
