@@ -1,6 +1,6 @@
 ---
 categories:
-    -工具
+- 工具
 cover: ''
 date: 2023-7-07
 excerpt: 安利一下好用的文件传输平台
