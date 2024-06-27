@@ -58,4 +58,4 @@ TO BE CONTINUED.......
 * Twitter: [云·迹](https://twitter.com/yunji5362)（一些分享和正在进行的项目预告）
 * QQ：2725116709（注明来意，bot会不定期通过验证）
 * Instagram：[Biltune](https://www.instagram.com/yunji5362/)
-* RSS：[Feed](https://yunji.blog/atom.xml)(欢迎订阅，可以使用多种RSS阅读器，比如feedly)
+* RSS：[Feed](https://yunji.blog/atom.xml)(欢迎订阅，可以使用多种RSS阅读器，比如[Fluent reader](https://hyliu.me/fluent-reader/))
